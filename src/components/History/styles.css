@@ -1,0 +1,28 @@
+.history {
+  display: flex;
+  flex-direction: column;
+  max-height: 300px;
+}
+
+.history span {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 8px;
+}
+
+.history-list {
+  padding: 4px;
+  margin: 4px;
+  overflow-y: scroll;
+}
+
+.history-item {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 8px;
+  padding: 4px;
+}
+.history-item:hover {
+  background-color: #eee;
+}

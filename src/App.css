@@ -11,6 +11,13 @@ body,
   min-height: 100%;
 }
 
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #098dc2;
   -webkit-font-smoothing: antialiased !important;
@@ -27,21 +34,16 @@ button {
   padding: 10px;
 }
 
-.container{
+.container {
   max-width: 800px;
   margin: auto;
 }
 
-.grid{
+.grid {
   display: grid;
   gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-.calculator{
-
-}
-
-.history{
-
+.history {
 }

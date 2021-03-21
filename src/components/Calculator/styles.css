@@ -1,0 +1,37 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+
+.calculator-display {
+  display: flex;
+  padding: 4px;
+  background-color: #ddd;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+.calculator-input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  text-align: right;
+}
+
+.calculator-keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+
+.k-c {
+  grid-column: 4 / 5;
+  grid-row: 2 / 4;
+}
+.k-r {
+  grid-column: 4 / 5;
+  grid-row: 4 / 6;
+}
+.k-0 {
+  grid-column: 1 / 4;
+}

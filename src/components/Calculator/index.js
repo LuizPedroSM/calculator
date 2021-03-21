@@ -1,30 +1,34 @@
+import Button from '../Button';
+
+import './styles.css';
+
 function Calculator() {
   return (
     <div className="box calculator">
-      <div className="display">
-        <input type="number" />
+      <div className="calculator-display">
+        <input type="number" className="calculator-input" />
       </div>
-      <div className="keyboard">
-        <button type="button">C</button>
-        <button type="button">/</button>
-        <button type="button">*</button>
-        <button type="button">-</button>
-        <button type="button">+</button>
+      <div className="calculator-keyboard">
+        <Button>/</Button>
+        <Button>*</Button>
+        <Button>-</Button>
+        <Button>+</Button>
 
-        <button type="button">7</button>
-        <button type="button">8</button>
-        <button type="button">9</button>
+        <Button>7</Button>
+        <Button>8</Button>
+        <Button>9</Button>
 
-        <button type="button">4</button>
-        <button type="button">5</button>
-        <button type="button">6</button>
+        <Button>4</Button>
+        <Button>5</Button>
+        <Button>6</Button>
 
-        <button type="button">1</button>
-        <button type="button">2</button>
-        <button type="button">3</button>
+        <Button>1</Button>
+        <Button>2</Button>
+        <Button>3</Button>
 
-        <button type="button">0</button>
-        <button type="button">=</button>
+        <Button className="k-0">0</Button>
+        <Button className="k-c">C</Button>
+        <Button className="k-r">=</Button>
       </div>
     </div>
   );
