@@ -1,14 +1,26 @@
+import { useStateValue } from '~/contexts/StateContext';
+import Button from '../Button';
 import './styles.css';
 
 function History() {
+  const [state, dispatch] = useStateValue();
+
+  const clearHistory = () => {
+    dispatch({ type: 'clearHistory' });
+  };
+
   return (
     <div className="box history">
-      <span>History</span>
+      <div className="history-header">
+        <span>History</span>
+        <Button onClick={() => clearHistory()}>Clean</Button>
+      </div>
       <ul className="history-list">
-        <li className="history-item">2 + 2 = 4</li>
-        <li className="history-item">2 + 3 = 5</li>
-        <li className="history-item">2 + 4 = 6</li>
-        <li className="history-item">2 + 5 = 7</li>
+        {state.history.history.map((item, index) => (
+          <li key={`${item + index}`} className="history-item">
+            {item}
+          </li>
+        ))}
       </ul>
     </div>
   );

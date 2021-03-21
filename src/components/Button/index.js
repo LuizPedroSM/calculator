@@ -2,9 +2,9 @@ import PropTypes from 'prop-types';
 
 import './styles.css';
 
-function Button({ children, className }) {
+function Button({ children, className, onClick }) {
   return (
-    <button type="button" className={`btn ${className}`}>
+    <button onClick={onClick} type="button" className={`btn ${className}`}>
       {children}
     </button>
   );
@@ -13,11 +13,13 @@ function Button({ children, className }) {
 Button.propTypes = {
   children: PropTypes.node,
   className: PropTypes.string,
+  onClick: PropTypes.func,
 };
 
 Button.defaultProps = {
   children: '',
   className: '',
+  onClick: () => null,
 };
 
 export default Button;

@@ -9,6 +9,9 @@ export default (state = initialState, action = {}) => {
       history.push(action.history);
       return { ...state, history };
     }
+    case 'clearHistory': {
+      return { ...state, history: [] };
+    }
     default:
       return state;
   }
