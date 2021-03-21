@@ -1,9 +1,9 @@
-import { Calculator, History } from './components';
-import './App.css';
+import { Calculator, History } from '~/components';
+import '~/App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container grid">
       <Calculator />
       <History />
     </div>

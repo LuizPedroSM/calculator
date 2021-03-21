@@ -1,0 +1,47 @@
+*,
+::before::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  background-color: #098dc2;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+.box {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.container{
+  max-width: 800px;
+  margin: auto;
+}
+
+.grid{
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.calculator{
+
+}
+
+.history{
+
+}
