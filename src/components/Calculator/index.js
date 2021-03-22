@@ -19,7 +19,7 @@ function Calculator() {
 
   const result = () => {
     /* eslint no-eval: 0 */
-    const r = eval(input);
+    const r = Number(eval(input)).toFixed(2);
     dispatch({ type: 'addHistory', history: `${input} = ${r}` });
     setInput(r);
   };
