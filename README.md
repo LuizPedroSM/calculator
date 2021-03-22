@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">
+  <a href="https://reactjs.org/">
+    <img src="https://img.shields.io/static/v1?label=React&message=JS&color=blue?style=plastic&logo=React" alt="ReactJS" />
+  </a>
+</h2>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/luizpedrosm/calculator?color=%2304D361">
 
-In the project directory, you can run:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/luizpedrosm/calculator">
+  <img alt="Code size" src="https://img.shields.io/github/languages/code-size/luizpedrosm/calculator">
 
-### `yarn start`
+  <a href="https://github.com/luizpedrosm/calculator/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/luizpedrosm/calculator">
+  </a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <a href="https://www.linkedin.com/in/luizpedrosm/">
+    <img alt="Made by luizpedrosm" src="https://img.shields.io/badge/made%20by-luizpedrosm-blue">
+  </a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
 
-### `yarn test`
+## 💻 Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Aplicação feita em [React] utilizando o react context.
 
-### `yarn build`
+## - 🌐 Web
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Calculator]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🖥️ Desktop
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h1 align="center">
+    <img alt="Home" title="Home" src=".github/img/desktop.png" width="600px" />
+</h1>
 
-### `yarn eject`
+### 📱 Mobile
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<h1 align="center">
+    <img alt="Home" title="Home" src=".github/img/mobile.png" width="300px" />
+</h1>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Tecnologias
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [React](https://reactjs.org)
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[calculator]: https://react-calculator-luizpedrosm.netlify.app/
+[react]: https://reactjs.org
